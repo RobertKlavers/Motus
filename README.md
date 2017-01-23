@@ -21,7 +21,7 @@ if the optional flag `-p` is set, the fitted results will be saved to the output
 module | description 
 --- | ---
 `motus.main`  | is the main algorithm execution chain and states each step in the chain.
-`motus.cda`   | contains the CDA specific code, no crater catalog is necesarry for this module.
+`motus.cda`   | contains the CDA specific code, no crater catalog is necessary for this module.
 `modus.trn`   | contains TRN specific code, needs an initialized crater catalog.csv
 `modus.config`| contains Some configuration
 
