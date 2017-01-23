@@ -1,0 +1,14 @@
+MSER_DELTA = 5
+MSER_MIN_AREA = 25
+MSER_MAX_AREA = 14400
+MSER_MAX_VARIATION = 0.3
+MSER_MIN_DIVERSITY = 0.2
+
+ILLUMINATION_ANGLE = 0.6    # 0.6 For default scenes
+
+OUTPUT_FOLDER = "output/"
+INPUT_FOLDER = "input/"
+
+CATALOG_SIZE = 490          # in pixels
+CATALOG_ALTITUDE = 20000    # in meter
+CATALOG_FOV = 30            # in degrees
