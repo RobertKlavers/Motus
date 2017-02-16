@@ -165,7 +165,7 @@ def fit(roi_collection):
     for r_a, r_b in roi_collection:
         roi = np.concatenate((r_a.coords, r_b.coords), axis=0)
         ellipse = fit_ellipse(roi, ind)
-        if ellipse.eccentricity() < 0.9:
+        if ellipse.eccentricity() < 0.75:
             ellipses.append(ellipse)
             ind += 1
 
