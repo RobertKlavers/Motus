@@ -12,7 +12,7 @@ Edit the config.py to specify a few specific properties. Such as the folders to 
 The app can be run via the commandline:
 
 ```
-   python motus.py <filename> <illumination_angle> -p
+   python motus.py <filename> -p
 ```
 
 if the optional flag `-p` is set, the fitted results will be saved to the output folder.
